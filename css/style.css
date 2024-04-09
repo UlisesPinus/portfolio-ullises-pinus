@@ -716,7 +716,13 @@ footer ul li {
         height: 150px;
         border-radius: 30px;
     }
+
+    .trabajemosjuntos {
+        font-size: 18px;
+        font-weight: 400;
+    }
 }
+
 
 @media screen and (max-width:550px) {
     .navbar-brand {
@@ -761,12 +767,12 @@ footer ul li {
     }
 
     .trabajemosjuntos {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 400;
     }
     
     .trabajemosjuntos:hover {
-        font-size: 26px;
+        font-size: 22px;
         color: black;
     }
 
