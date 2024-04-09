@@ -1,0 +1,905 @@
+body {
+    font-family: serif !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    padding-top: 130px;
+}
+
+.navbar-brand {
+    font-family: serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #EBD3FF;
+}
+
+.container-fluid {
+    font-family: serif;
+    font-size: 26px;
+    font-weight: 400px;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav li a {
+    color: white;
+    margin: 30px;
+}
+
+.navbar-nav li a:hover {
+    color: #EBD3FF;
+    text-decoration: underline;
+}
+
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.trabajemosjuntos {
+    text-decoration: underline;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.trabajemosjuntos:hover {
+    font-size: 28px;
+    color: black;
+}
+
+.trabajemos {
+    text-decoration: underline;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.trabajemos:hover {
+    font-size: 28px;
+    color: black;
+}
+
+footer img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+footer img:hover {
+    width: 90px;
+    height: 90px;
+}
+
+footer {
+    background-color: #F6F0F0;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redess {
+    display: flex;
+    justify-content: center;
+}
+
+.behance {
+    display: inline-block;
+
+}
+
+.linkedin {
+    display: inline-block;
+
+}
+
+.beha {
+    display: inline-block;
+}
+
+.linkd {
+    display: inline-block;
+}
+
+
+.presentacion h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+
+.presentacion p {
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    padding: 100px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+.presentacion img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 350px;
+    box-shadow: white 2px 2px 2px 2px;
+    border-radius: 50px;
+}
+
+
+.hola {
+    background-color: black;
+    padding-bottom: 80px;
+}
+
+.imagen-parrafo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mis-dibujos {
+    padding: 80px;
+}
+
+.mis-dibujos {
+    background-color: black;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mis-dibujos h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+.mis-dibujos img {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    box-shadow: white 2px 2px 2px 2px;
+    border-radius: 50px;
+}
+
+.mis-dibujos a img:hover {
+    box-shadow: #EBD3FF 10px 10px 10px 10px;
+    border-radius: 50px;
+}
+
+.mis-dibujos h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 10px;
+
+}
+
+.proyectos img {
+    width: 400;
+    height: 400px;
+    margin-right: 20px;
+    box-shadow: white 2px 2px 2px 2px;
+    border-radius: 50px;
+}
+
+.proyectos img:hover {
+    box-shadow: #EBD3FF -15px 5px 10px 10px;
+    border-radius: 50px;
+}
+
+.proyectos {
+    background-color: black;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.proyectos {
+    padding: 80px;
+}
+
+.proyectos h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.proyectos h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+
+.contactame {
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.contactame form {
+    padding: 30px;
+}
+
+.estas-son h2 {
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 500px;
+    color: black;
+    background-color: #F6F0F0;
+}
+
+.misobras-grid {
+    width: 100%;
+    height: 300vh;
+    background-color: #ffe5b68f;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: (2, 1fr);
+    row-gap: 20px;
+}
+
+.misobras-grid img {
+    width: 600px;
+    height: 600px;
+    margin-top: 80px;
+    border-radius: 25px;
+}
+
+.misobras-grid h4 {
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.proyectos-mios {
+    display: flex;
+    justify-content: center;
+}
+
+.mis-proyectos img {
+    margin: 60px;
+    background-color: #F6F0F0;
+    border-radius: 40px;
+}
+
+.mis-proyectos img:hover {
+    background-color: #EBD3FF;
+    width: 500px;
+    border: 5px solid;
+    border-color: #F6F0F0;
+}
+
+.mis-proyectos div h2 {
+    background-color: #F6F0F0;
+}
+
+.mis-proyectos h2 {
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 500px;
+    color: black;
+
+}
+
+.mis-proyectos div {
+    background-color: black;
+}
+
+.contactameytrabajemos {
+    font-size: 40px;
+    font-weight: 500px;
+    padding: 40px;
+    background-color: #F6F0F0;
+    text-align: center;
+}
+
+.nombre label {
+    font-size: 26px;
+    font-weight: 400px;
+    text-align: left;
+}
+
+.email label {
+    font-size: 26px;
+    font-weight: 400px;
+}
+
+.dejaunmensaje label {
+    font-size: 26px;
+    font-weight: 400px;
+}
+
+
+.sobre-mi h2 {
+    font-size: 40px;
+    font-weight: 600px;
+    padding: 40px;
+    background-color: #F6F0F0;
+    text-align: center;
+
+}
+
+.sobremi {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.sobremi img {
+    height: 600px;
+    width: 600px;
+    padding: 60px;
+    box-shadow: white 5px 5px 5px 5px;
+    border-radius: 50px;
+}
+
+.cursos h4 {
+    color: black;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 1.5;
+
+}
+
+.sobremi h3 {
+    font-size: 30px;
+    color: black;
+    text-decoration: underline;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+
+.sobremi p {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 20px;
+
+}
+
+.mi-info {
+    background: #F6F0F0;
+    border-radius: 20px;
+    padding: 40px;
+    width: 40%;
+    height: 70%;
+    margin-top: 50px;
+}
+
+.sobremi {
+    background-color: black;
+}
+
+.boton input {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    border-color: black;
+    font-size: 20px;
+    color: white;
+    font-weight: 600px;
+    width: 150px;
+    margin: 10px;
+}
+
+.boton input:hover {
+    background-color: #ac46ff;
+    border-color: #ac46ff;
+    color: black;
+    font-weight: 700;
+
+}
+
+.dejarmensaje {
+    border-radius: 20px;
+    width: 600px;
+    height: 200px;
+    border-color: #EBD3FF;
+    background-color: #EBD3FF;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.cajanombre {
+    border-radius: 20px;
+    width: 600px;
+    height: 40px;
+    border-color: #EBD3FF;
+    background-color: #EBD3FF;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.cajamail {
+    border-radius: 20px;
+    width: 600px;
+    height: 40px;
+    border-color: #EBD3FF;
+    background-color: #EBD3FF;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.formulario {
+    background-color: #F6F0F0;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.proyecto-crunchy div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.proyecto-crunchy .img-fluid {
+    max-width: 60%;
+}
+
+.proyecto-crunchy a {
+    text-decoration: none;
+    color: #F47521;
+    background-color: #222429;
+    padding: 10px 0px 40px 0px;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.proyecto-crunchy a h2:hover {
+    color: #ffa467;
+}
+
+
+
+/** Media query**/
+
+/* HOME */
+
+@media screen and (max-width:1629px) {
+    .presentacion p {
+        font-size: 30px;
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width:1454px) {
+    .presentacion p {
+        font-size: 25px;
+        margin-right: 30px;
+        
+    }
+
+    .presentacion h2 {
+        font-size: 40px;
+    }
+
+    .presentacion img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .mis-dibujos img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .mis-dibujos h2 {
+        font-size: 30px;
+    }
+
+    .mis-dibujos h3 {
+        font-size: 20px;
+    }
+
+    .proyectos img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .proyectos h2 {
+        font-size: 30px;
+    }
+    
+    .proyectos h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:1270px) {
+    .imagen-parrafo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion img {
+        float: none;
+        margin: 0px;
+    }
+
+    .presentacion p {
+        margin: 0px;
+        text-align: left;
+        margin-right: 300px;
+        padding-left: 400px;
+    }
+
+}
+
+
+@media screen and (max-width:1031px) {
+    .container-fluid {
+        font-size: 22px;
+    }
+    .navbar-nav li a {
+        margin: 3px;
+        padding: 5px;
+    }
+    .navbar-brand {
+        font-size: 28px;
+        font-weight:700;
+    }
+
+    .presentacion p {
+        margin: 0px;
+        text-align: left;
+        margin-right: 100px;
+        padding-left: 200px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width:830px) {
+    .presentacion p {
+        margin: 0px;
+        text-align: left;
+        margin-right: 100px;
+        padding-left: 200px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .presentacion h2 {
+        font-size: 28px;
+    }
+
+    .presentacion p {
+        font-size: 22px;
+    }
+
+    .presentacion img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .mis-dibujos img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .mis-dibujos h2 {
+        font-size: 25px;
+    }
+
+    .mis-dibujos h3 {
+        font-size: 20px;
+    }
+
+    .proyectos img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .proyectos h2 {
+        font-size: 25px;
+    }
+
+    .proyectos h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .navbar-brand {
+        font-size: 26px;
+        font-weight:600;
+    }
+    
+    .container-fluid {
+        font-size: 18px;
+    }
+    .navbar-nav li a {
+        margin: 1px;
+        padding: 2px;
+    }
+    
+    .presentacion h2 {
+        font-size: 26px;
+    }
+
+    .presentacion img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .presentacion p {
+        font-size: 20px;
+        margin-right: 20px;
+        padding-left: 150px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .mis-dibujos img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    .proyectos img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .navbar-brand {
+        font-size: 24px;
+        font-weight:700;
+    }
+    
+    .presentacion p {
+        font-size: 18px;
+        margin-right: 5px;
+        padding-left: 150px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .mis-dibujos img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    .proyectos img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    .mis-dibujos h2 {
+        font-size: 22px;
+    }
+
+    .mis-dibujos h3 {
+        font-size: 18px;
+    }
+
+    .proyectos h2 {
+        font-size:22px;
+    }
+
+    .proyectos h3 {
+        font-size: 18px;
+    }
+
+    .trabajemosjuntos {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    
+    .trabajemosjuntos:hover {
+        font-size: 26px;
+        color: black;
+    }
+
+    .presentacion h2 {
+        font-weight: 500;
+    }
+
+    footer img {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer img:hover {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:487px) {
+    .navbar-brand {
+        font-size: 22px;
+        font-weight:600;
+    }
+    
+    .presentacion h2 {
+        font-size: 22px;
+        padding: 30px;
+    }
+
+
+    .presentacion img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .presentacion p {
+        font-size: 16px;
+        padding-left: 50px;
+        margin-left: 80px;
+    }
+
+    .mis-dibujos {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mis-dibujos h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mis-dibujos h3 {
+        font-size: 16px;
+    }
+
+    .mis-dibujos img {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .proyectos {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyectos h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .proyectos h3 {
+        font-size: 16px;
+    }
+
+    .proyectos img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .presentacion h2 {
+        font-size: 20px;
+    }
+    
+    .mis-dibujos h3 {
+        margin: 0px;
+        margin-bottom: 10px;
+    } 
+
+    .proyectos h2 {
+        padding-top: 10px;
+    }
+
+    .presentacion p {
+        margin-left: 100px;
+        padding-left: 15px;
+    }
+
+}
+
+@media screen and (max-width:404px) {
+    .presentacion p {
+        font-size: 14px;
+    }
+
+    .mis-dibujos h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:386px) {
+    .proyectos h3 {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:364px) {
+    .navbar-nav li a {
+        margin: 1px;
+        padding: 2px;
+        font-size: 14px;
+    }
+    
+    .presentacion p {
+        text-align: center;
+    }
+    
+}
