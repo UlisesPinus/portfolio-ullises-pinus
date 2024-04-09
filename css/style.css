@@ -501,6 +501,7 @@ footer ul li {
     flex-direction: column;
     align-items: center;
     background-color: black;
+    padding-bottom: 150px;
 }
 
 .proyecto-crunchy .img-fluid {
@@ -522,6 +523,17 @@ footer ul li {
 }
 
 
+.proyecto-letsgo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 150px;
+}
+
+.proyecto-letsgo .img-fluid {
+    max-width: 60%;
+}
 
 /** Media query**/
 
@@ -532,14 +544,14 @@ footer ul li {
         font-size: 30px;
         margin-right: 50px;
     }
-    
+
 }
 
 @media screen and (max-width:1454px) {
     .presentacion p {
         font-size: 25px;
         margin-right: 30px;
-        
+
     }
 
     .presentacion h2 {
@@ -572,7 +584,7 @@ footer ul li {
     .proyectos h2 {
         font-size: 30px;
     }
-    
+
     .proyectos h3 {
         font-size: 20px;
     }
@@ -604,13 +616,15 @@ footer ul li {
     .container-fluid {
         font-size: 22px;
     }
+
     .navbar-nav li a {
         margin: 3px;
         padding: 5px;
     }
+
     .navbar-brand {
         font-size: 28px;
-        font-weight:700;
+        font-weight: 700;
     }
 
     .presentacion p {
@@ -633,7 +647,7 @@ footer ul li {
         padding-top: 40px;
         padding-bottom: 10px;
     }
-    
+
     .presentacion h2 {
         font-size: 28px;
     }
@@ -677,17 +691,18 @@ footer ul li {
 @media screen and (max-width:620px) {
     .navbar-brand {
         font-size: 26px;
-        font-weight:600;
+        font-weight: 600;
     }
-    
+
     .container-fluid {
         font-size: 18px;
     }
+
     .navbar-nav li a {
         margin: 1px;
         padding: 2px;
     }
-    
+
     .presentacion h2 {
         font-size: 26px;
     }
@@ -727,9 +742,9 @@ footer ul li {
 @media screen and (max-width:550px) {
     .navbar-brand {
         font-size: 24px;
-        font-weight:700;
+        font-weight: 700;
     }
-    
+
     .presentacion p {
         font-size: 18px;
         margin-right: 5px;
@@ -759,7 +774,7 @@ footer ul li {
     }
 
     .proyectos h2 {
-        font-size:22px;
+        font-size: 22px;
     }
 
     .proyectos h3 {
@@ -770,7 +785,7 @@ footer ul li {
         font-size: 18px;
         font-weight: 400;
     }
-    
+
     .trabajemosjuntos:hover {
         font-size: 22px;
         color: black;
@@ -794,9 +809,9 @@ footer ul li {
 @media screen and (max-width:487px) {
     .navbar-brand {
         font-size: 22px;
-        font-weight:600;
+        font-weight: 600;
     }
-    
+
     .presentacion h2 {
         font-size: 22px;
         padding: 30px;
@@ -863,11 +878,11 @@ footer ul li {
     .presentacion h2 {
         font-size: 20px;
     }
-    
+
     .mis-dibujos h3 {
         margin: 0px;
         margin-bottom: 10px;
-    } 
+    }
 
     .proyectos h2 {
         padding-top: 10px;
@@ -894,7 +909,7 @@ footer ul li {
     .proyectos h3 {
         text-align: center;
     }
-    
+
 }
 
 @media screen and (max-width:364px) {
@@ -903,9 +918,9 @@ footer ul li {
         padding: 2px;
         font-size: 14px;
     }
-    
+
     .presentacion p {
         text-align: center;
     }
-    
+
 }
