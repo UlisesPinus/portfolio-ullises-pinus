@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ulises Pinus</h1>
 <h3 align="center">A passionate UX-UI Designer and Web developer from Argentina</h3>
 
-- 🔭 I’m currently working on **Web Portfolio**
+ 🔭 I’m currently working on **Web Portfolio**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
