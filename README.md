@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Ulises Pinus</h1>
+<h1 align="center">Hola agus este es mi proyecto cargado en github :)</h1>
 <h3 align="center">A passionate UX-UI Designer and Web developer from Argentina</h3>
 
-- 🔭 I’m currently working on **Web Portfolio**
+ 🔭 I’m currently working on **Proyecto coderhouse- Comision-53845**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
