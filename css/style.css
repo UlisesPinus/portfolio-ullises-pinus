@@ -533,11 +533,12 @@ footer ul li {
 
 .proyecto-letsgo a {
     color: #FF9500;
-    text-align: left;
+    text-align: center;
     padding: 10px 0px 40px 0px;
     font-weight: 500;
     text-decoration: none;
     width: 60%;
+    background-color: #FCFAFA;
 }
 
 .proyecto-letsgo a h2:hover {
