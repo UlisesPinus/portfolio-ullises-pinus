@@ -627,6 +627,10 @@ footer ul li {
 
 
 @media screen and (max-width:1031px) {
+    main {
+        padding-top: 60px;
+    }
+    
     .container-fluid {
         font-size: 22px;
     }
@@ -651,6 +655,7 @@ footer ul li {
     }
 
 }
+
 
 @media screen and (max-width:830px) {
     .presentacion p {
@@ -937,4 +942,65 @@ footer ul li {
         text-align: center;
     }
 
+}
+
+/* PROYECTOS */
+
+@media screen and (max-width:1227px) {
+    .proyectos-mios {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:964px) {
+    .mis-proyectos h2 {
+        padding: 30px;
+        font-size: 30px;
+    }
+    
+    .proyectos-mios img{
+        max-width: 500px;
+        height: 500px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .mis-proyectos h2 {
+        padding: 25px;
+        font-size: 30px;
+    }
+    
+    .proyectos-mios img{
+        max-width: 400px;
+        height: 400px;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .trabajemos {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .trabajemos:hover {
+        font-size: 22px;
+        color: black;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .mis-proyectos h2 {
+        padding: 22px;
+        font-size: 30px;
+    }
+    
+    .proyectos-mios img{
+        max-width: 300px;
+        height: 300px;
+        align-items: center;
+    }
 }
