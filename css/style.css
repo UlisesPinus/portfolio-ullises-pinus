@@ -970,7 +970,7 @@ footer ul li {
 @media screen and (max-width:640px) {
     .mis-proyectos h2 {
         padding: 25px;
-        font-size: 30px;
+        font-size: 26px;
     }
     
     .proyectos-mios img{
@@ -995,12 +995,20 @@ footer ul li {
 @media screen and (max-width:540px) {
     .mis-proyectos h2 {
         padding: 22px;
-        font-size: 30px;
+        font-size: 22px;
     }
     
     .proyectos-mios img{
         max-width: 300px;
         height: 300px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .proyectos-mios img{
+        max-width: 250px;
+        height: 250px;
         align-items: center;
     }
 }
