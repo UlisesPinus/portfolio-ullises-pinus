@@ -8,6 +8,8 @@ body {
     box-sizing: border-box;
 }
 
+/*! HEADER */
+
 header {
     position: fixed;
     width: 100%;
@@ -16,6 +18,8 @@ header {
 main {
     padding-top: 130px;
 }
+
+/*! NAV */
 
 .navbar-brand {
     font-family: serif;
@@ -48,7 +52,6 @@ main {
     text-decoration: underline;
 }
 
-
 .navbar-toggler {
     background-color: white;
 }
@@ -57,18 +60,7 @@ main {
     background-color: white;
 }
 
-
-
-footer img {
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-}
-
-footer img:hover {
-    width: 90px;
-    height: 90px;
-}
+/*! FOOTER */
 
 footer {
     background-color: #F6F0F0;
@@ -81,26 +73,28 @@ footer ul li {
     list-style: none;
 }
 
-.trabajemosjuntos {
+footer ul li a {
     text-decoration: underline;
     color: black;
     font-size: 24px;
     font-weight: 600;
-
 }
 
-.trabajemosjuntos:hover {
+footer ul li a:hover {
     font-size: 28px;
     color: black;
 }
 
-.redes {
-    display: flex;
-    justify-content: center;
+footer img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin: 0px 0px 10px 25px;
 }
 
-.redes a {
-    display: inline-block;
+footer img:hover {
+    width: 90px;
+    height: 90px;
 }
 
 
@@ -329,21 +323,7 @@ footer ul li {
     text-align: center;
 }
 
-.nombre label {
-    font-size: 26px;
-    font-weight: 400px;
-    text-align: left;
-}
 
-.email label {
-    font-size: 26px;
-    font-weight: 400px;
-}
-
-.dejaunmensaje label {
-    font-size: 26px;
-    font-weight: 400px;
-}
 
 
 .sobre-mi h2 {
@@ -407,27 +387,20 @@ footer ul li {
     background-color: black;
 }
 
-.boton input {
+.formulario {
+    background-color: #F6F0F0;
+    display: inline-block;
+    padding: 50px;
     border-radius: 20px;
-    padding: 10px;
-    background-color: black;
-    border-color: black;
-    font-size: 20px;
-    color: white;
-    font-weight: 600px;
-    width: 150px;
-    margin: 10px;
 }
 
-.boton input:hover {
-    background-color: #ac46ff;
-    border-color: #ac46ff;
-    color: black;
-    font-weight: 700;
-
+.formulario label {
+    font-size: 26px;
+    font-weight: 400px;
+    text-align: left;
 }
 
-.dejarmensaje {
+.formulario textarea {
     border-radius: 20px;
     width: 600px;
     height: 200px;
@@ -438,7 +411,7 @@ footer ul li {
     padding: 10px;
 }
 
-.cajanombre {
+.formulario div input {
     border-radius: 20px;
     width: 600px;
     height: 40px;
@@ -449,23 +422,30 @@ footer ul li {
     padding: 10px;
 }
 
-.cajamail {
-    border-radius: 20px;
-    width: 600px;
-    height: 40px;
-    border-color: #EBD3FF;
-    background-color: #EBD3FF;
-    font-size: 22px;
-    font-weight: 200;
-    padding: 10px;
+.boton {
+    display: flex;
+    justify-content: center;
 }
 
-.formulario {
+.boton input {
+    border-radius: 20px;
+    padding: 10px;
     background-color: #F6F0F0;
-    display: inline-block;
-    padding: 50px;
-    border-radius: 20px;
+    border-color: #F6F0F0;
+    font-size: 20px;
+    color: black;
+    font-weight: 600px;
+    width: 150px;
+    margin: 10px;
 }
+
+.boton input:hover {
+    background-color: #ac46ff;
+    border-color: #ac46ff;
+    color: black;
+    font-weight: 700;
+}
+
 
 .proyecto-crunchy div {
     display: flex;
@@ -522,7 +502,7 @@ footer ul li {
 
 /** Media query**/
 
-/* HOME */
+/*! HOME */
 
 @media screen and (max-width:1629px) {
     .presentacion p {
@@ -771,27 +751,19 @@ footer ul li {
         font-size: 18px;
     }
 
-    footer .redes {
-        align-items: center;
-    }
-
-    footer .trabajemosjuntos {
-        font-size: 18px;
-        font-weight: 400;
-    }
-
-    footer .trabajemosjuntos:hover {
-        font-size: 22px;
-        color: black;
-    }
-
     .presentacion h2 {
         font-weight: 500;
+    }
+
+    footer ul li a{
+        font-size: 18px;
+        font-weight: 400;
     }
 
     footer img {
         width: 50px;
         height: 50px;
+        margin: 10px;
     }
 
     footer img:hover {
@@ -919,7 +891,7 @@ footer ul li {
 
 }
 
-/* PROYECTOS */
+/*! PROYECTOS */
 
 @media screen and (max-width:1227px) {
     .proyectos-mios {
