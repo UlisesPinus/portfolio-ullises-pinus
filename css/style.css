@@ -57,30 +57,7 @@ main {
     background-color: white;
 }
 
-.trabajemosjuntos {
-    text-decoration: underline;
-    color: black;
-    font-size: 24px;
-    font-weight: 600;
 
-}
-
-.trabajemosjuntos:hover {
-    font-size: 28px;
-    color: black;
-}
-
-.trabajemos {
-    text-decoration: underline;
-    color: black;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.trabajemos:hover {
-    font-size: 28px;
-    color: black;
-}
 
 footer img {
     width: 70px;
@@ -104,31 +81,25 @@ footer ul li {
     list-style: none;
 }
 
+.trabajemosjuntos {
+    text-decoration: underline;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.trabajemosjuntos:hover {
+    font-size: 28px;
+    color: black;
+}
+
 .redes {
     display: flex;
     justify-content: center;
 }
 
-.redess {
-    display: flex;
-    justify-content: center;
-}
-
-.behance {
-    display: inline-block;
-
-}
-
-.linkedin {
-    display: inline-block;
-
-}
-
-.beha {
-    display: inline-block;
-}
-
-.linkd {
+.redes a {
     display: inline-block;
 }
 
@@ -630,7 +601,7 @@ footer ul li {
     main {
         padding-top: 60px;
     }
-    
+
     .container-fluid {
         font-size: 22px;
     }
@@ -800,12 +771,16 @@ footer ul li {
         font-size: 18px;
     }
 
-    .trabajemosjuntos {
+    footer .redes {
+        align-items: center;
+    }
+
+    footer .trabajemosjuntos {
         font-size: 18px;
         font-weight: 400;
     }
 
-    .trabajemosjuntos:hover {
+    footer .trabajemosjuntos:hover {
         font-size: 22px;
         color: black;
     }
@@ -951,7 +926,7 @@ footer ul li {
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
 
 @media screen and (max-width:964px) {
@@ -959,8 +934,8 @@ footer ul li {
         padding: 30px;
         font-size: 30px;
     }
-    
-    .proyectos-mios img{
+
+    .proyectos-mios img {
         max-width: 500px;
         height: 500px;
         align-items: center;
@@ -972,8 +947,8 @@ footer ul li {
         padding: 25px;
         font-size: 26px;
     }
-    
-    .proyectos-mios img{
+
+    .proyectos-mios img {
         max-width: 400px;
         height: 400px;
         align-items: center;
@@ -997,8 +972,8 @@ footer ul li {
         padding: 22px;
         font-size: 22px;
     }
-    
-    .proyectos-mios img{
+
+    .proyectos-mios img {
         max-width: 300px;
         height: 300px;
         align-items: center;
@@ -1006,7 +981,7 @@ footer ul li {
 }
 
 @media screen and (max-width:465px) {
-    .proyectos-mios img{
+    .proyectos-mios img {
         max-width: 250px;
         height: 250px;
         align-items: center;
