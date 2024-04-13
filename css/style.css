@@ -97,6 +97,7 @@ footer img:hover {
     height: 90px;
 }
 
+/*! HOME */
 
 .presentacion h2 {
     color: white;
@@ -110,9 +111,10 @@ footer img:hover {
 .presentacion {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 20px;
+    background-color: black;
+    padding-bottom: 30px;
 }
-
 
 .presentacion p {
     color: white;
@@ -134,10 +136,6 @@ footer img:hover {
 }
 
 
-.hola {
-    background-color: black;
-    padding-bottom: 80px;
-}
 
 .imagen-parrafo {
     display: flex;
@@ -228,6 +226,7 @@ footer img:hover {
     margin-left: 10px;
 }
 
+/*! CONTACTAME */
 
 .contactame {
     padding: 30px;
@@ -239,6 +238,75 @@ footer img:hover {
 .contactame form {
     padding: 30px;
 }
+
+.contactameytrabajemos {
+    font-size: 40px;
+    font-weight: 500px;
+    padding: 40px;
+    background-color: #F6F0F0;
+    text-align: center;
+}
+
+.formulario {
+    background-color: #F6F0F0;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.formulario label {
+    font-size: 26px;
+    font-weight: 400px;
+    text-align: left;
+}
+
+.formulario textarea {
+    border-radius: 20px;
+    width: 600px;
+    height: 200px;
+    border-color: #EBD3FF;
+    background-color: #EBD3FF;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.formulario div input {
+    border-radius: 20px;
+    width: 600px;
+    height: 40px;
+    border-color: #EBD3FF;
+    background-color: #EBD3FF;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.boton input {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #F6F0F0;
+    border-color: #F6F0F0;
+    font-size: 20px;
+    color: black;
+    font-weight: 600px;
+    width: 150px;
+    margin: 10px;
+}
+
+.boton input:hover {
+    background-color: #ac46ff;
+    border-color: #ac46ff;
+    color: black;
+    font-weight: 700;
+}
+
+/*! MI ARTE */
 
 .estas-son h2 {
     text-align: center;
@@ -279,6 +347,7 @@ footer img:hover {
     margin-top: 20px;
 }
 
+/*! PROYECTOS */
 
 .proyectos-mios {
     display: flex;
@@ -315,16 +384,7 @@ footer img:hover {
     background-color: black;
 }
 
-.contactameytrabajemos {
-    font-size: 40px;
-    font-weight: 500px;
-    padding: 40px;
-    background-color: #F6F0F0;
-    text-align: center;
-}
-
-
-
+/*! SOBRE MI */
 
 .sobre-mi h2 {
     font-size: 40px;
@@ -387,65 +447,7 @@ footer img:hover {
     background-color: black;
 }
 
-.formulario {
-    background-color: #F6F0F0;
-    display: inline-block;
-    padding: 50px;
-    border-radius: 20px;
-}
-
-.formulario label {
-    font-size: 26px;
-    font-weight: 400px;
-    text-align: left;
-}
-
-.formulario textarea {
-    border-radius: 20px;
-    width: 600px;
-    height: 200px;
-    border-color: #EBD3FF;
-    background-color: #EBD3FF;
-    font-size: 22px;
-    font-weight: 200;
-    padding: 10px;
-}
-
-.formulario div input {
-    border-radius: 20px;
-    width: 600px;
-    height: 40px;
-    border-color: #EBD3FF;
-    background-color: #EBD3FF;
-    font-size: 22px;
-    font-weight: 200;
-    padding: 10px;
-}
-
-.boton {
-    display: flex;
-    justify-content: center;
-}
-
-.boton input {
-    border-radius: 20px;
-    padding: 10px;
-    background-color: #F6F0F0;
-    border-color: #F6F0F0;
-    font-size: 20px;
-    color: black;
-    font-weight: 600px;
-    width: 150px;
-    margin: 10px;
-}
-
-.boton input:hover {
-    background-color: #ac46ff;
-    border-color: #ac46ff;
-    color: black;
-    font-weight: 700;
-}
-
+/*! PROYECTO CRUNCHYROLL */
 
 .proyecto-crunchy div {
     display: flex;
@@ -473,6 +475,7 @@ footer img:hover {
     color: #ffa467;
 }
 
+/*! PROYECTO LETSGO */
 
 .proyecto-letsgo div {
     display: flex;
@@ -755,6 +758,11 @@ footer img:hover {
         font-weight: 500;
     }
 
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
     footer ul li a{
         font-size: 18px;
         font-weight: 400;
@@ -766,10 +774,6 @@ footer img:hover {
         margin: 10px;
     }
 
-    footer img:hover {
-        width: 60px;
-        height: 60px;
-    }
 }
 
 @media screen and (max-width:487px) {
@@ -927,15 +931,6 @@ footer img:hover {
         margin: 30px;
     }
 
-    .trabajemos {
-        font-size: 18px;
-        font-weight: 400;
-    }
-
-    .trabajemos:hover {
-        font-size: 22px;
-        color: black;
-    }
 
 }
 
