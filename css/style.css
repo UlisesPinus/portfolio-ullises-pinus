@@ -136,7 +136,6 @@ footer img:hover {
 }
 
 
-
 .imagen-parrafo {
     display: flex;
     justify-content: center;
@@ -395,13 +394,14 @@ footer img:hover {
 
 }
 
-.sobremi {
+.mis-datos {
     display: flex;
     justify-content: space-evenly;
     padding: 60px;
+    background-color: black;
 }
 
-.sobremi img {
+.mis-datos img {
     height: 600px;
     width: 600px;
     padding: 60px;
@@ -409,7 +409,7 @@ footer img:hover {
     border-radius: 50px;
 }
 
-.cursos h4 {
+.mis-datos h4 {
     color: black;
     font-size: 28px;
     font-weight: 100;
@@ -417,7 +417,7 @@ footer img:hover {
 
 }
 
-.sobremi h3 {
+.mis-datos h3 {
     font-size: 30px;
     color: black;
     text-decoration: underline;
@@ -425,8 +425,7 @@ footer img:hover {
     padding-bottom: 20px;
 }
 
-
-.sobremi p {
+.mis-datos p {
     font-size: 30px;
     font-weight: 500;
     color: black;
@@ -434,7 +433,7 @@ footer img:hover {
 
 }
 
-.mi-info {
+.fondo-blanco {
     background: #F6F0F0;
     border-radius: 20px;
     padding: 40px;
@@ -443,9 +442,6 @@ footer img:hover {
     margin-top: 50px;
 }
 
-.sobremi {
-    background-color: black;
-}
 
 /*! PROYECTO CRUNCHYROLL */
 
@@ -952,5 +948,178 @@ footer img:hover {
         max-width: 250px;
         height: 250px;
         align-items: center;
+    }
+}
+
+
+/*! SOBRE MI */
+
+@media screen and (max-width:1460px) {
+    .mis-datos img {
+    height: 500px;
+    width: 500px;
+    padding: 60px;
+    box-shadow: white 5px 5px 5px 5px;
+    border-radius: 50px;
+    }
+
+    .mis-datos .fondo-blanco {
+        background: #F6F0F0;
+        border-radius: 30px;
+        padding: 20px;
+        width: 40%;
+        height: 70%;
+        margin-top: 30px;
+    }
+
+    .mis-datos p {
+        font-size: 26px;
+    }
+
+    .mis-datos h3 {
+        font-size: 26px;
+    }
+    
+    .mis-datos h4{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:1161px) {
+    .mis-datos{
+    background-image: url(../img/ulip.png);
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .mis-datos img {
+    display: none;
+    }
+
+    .mis-datos .fondo-blanco {
+        background: black;
+        border-radius: 30px;
+        padding: 20px;
+        width: 70%;
+        height: 70%;
+    }
+    .mis-datos p{
+        color: white;
+    }
+
+    .mis-datos h3 {
+        color: white;
+    }
+
+    .mis-datos h4 {
+        color: white;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .sobre-mi h2{
+        font-size: 30px;
+    }
+    
+    .mis-datos p{
+        font-size: 24px;
+    }
+
+    .mis-datos h3 {
+        font-size: 24px;
+    }
+
+    .mis-datos h4 {
+        font-size: 22px;
+    }
+    
+    .mis-datos .fondo-blanco {
+        background: black;
+        border-radius: 30px;
+        padding: 20px;
+        width: 90%;
+        height: 70%;
+    }
+
+}
+
+@media screen and (max-width:665px) {
+    .sobre-mi h2{
+        font-size: 26px;
+    }
+    
+    .mis-datos p{
+        font-size: 22px;
+    }
+
+    .mis-datos h3 {
+        font-size: 22px;
+    }
+
+    .mis-datos h4 {
+        font-size: 20px;
+    }
+    
+    .mis-datos .fondo-blanco {
+        background: black;
+        border-radius: 30px;
+        padding: 20px;
+        width: 90%;
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .sobre-mi h2{
+        font-size: 22px;
+    }
+    
+    .mis-datos p{
+        font-size: 20px;
+    }
+
+    .mis-datos h3 {
+        font-size: 20px;
+    }
+
+    .mis-datos h4 {
+        font-size: 18px;
+    }
+    
+    .mis-datos .fondo-blanco {
+        background: black;
+        border-radius: 30px;
+        padding: 20px;
+        width: 95%;
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .sobre-mi h2{
+        font-size: 22px;
+    }
+    
+    .mis-datos p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mis-datos h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mis-datos h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .mis-datos .fondo-blanco {
+        background: black;
+        border-radius: 30px;
+        padding: 20px;
+        width: 95%;
+        height: 70%;
     }
 }
