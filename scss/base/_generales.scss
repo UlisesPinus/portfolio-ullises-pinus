@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+}
+
+main {
+    padding-top: 130px;
+}
+
+/* NAV */
+
+.navbar-brand {
+    font-family: serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    &:hover {
+        color: #EBD3FF;
+    }
+}
+
+.container-fluid {
+    font-family: serif;
+    font-size: 26px;
+    font-weight: 400px;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav li a {
+    color: white;
+    margin: 30px;
+}
+
+.navbar-nav li a:hover {
+    color: #EBD3FF;
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
