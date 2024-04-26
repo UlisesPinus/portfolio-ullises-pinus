@@ -535,7 +535,8 @@ footer {
       font-size: 20px;
       text-align: center; }
     .mis-dibujos div h3 {
-      font-size: 16px; }
+      font-size: 16px;
+      text-align: center; }
     .mis-dibujos div a img {
       width: 100px;
       height: 100px;
@@ -549,7 +550,8 @@ footer {
       font-size: 20px;
       text-align: center; }
     .proyectos div h3 {
-      font-size: 16px; }
+      font-size: 16px;
+      text-align: center; }
     .proyectos div a img {
       width: 100px;
       height: 100px;
