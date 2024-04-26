@@ -343,7 +343,6 @@
 
             h3 {
                 font-size: 16px;
-                text-align: center;
             }
 
             a img {
@@ -368,7 +367,6 @@
 
             h3 {
                 font-size: 16px;
-                text-align: center;
             }
 
             a img {
@@ -722,6 +720,10 @@
 }
 
 @media screen and (max-width:620px) {
+    .contactame {
+        margin-bottom: 70px;
+    }
+    
     .contactame-y-trabajemos {
         font-size: 26px;
     }
