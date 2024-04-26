@@ -252,7 +252,6 @@ header {
       border-color: #F6F0F0;
       font-size: 20px;
       color: black;
-      font-weight: 600px;
       width: 150px;
       margin: 10px; }
       .contactame .boton input:hover {
@@ -736,15 +735,18 @@ footer {
   .contactame-y-trabajemos {
     font-size: 26px; }
   .contactame .boton input {
-    width: 100px; }
-  .contactame .formulario {
+    width: 100px;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px; }
+  .formulario {
     padding: 25px; }
-    .contactame .formulario label {
+    .formulario label {
       font-size: 20px; }
-    .contactame .formulario div input {
+    .formulario div input {
       width: 300px;
       height: 25px; }
-    .contactame .formulario textarea {
+    .formulario textarea {
       width: 300px;
       height: 100px; } }
 
@@ -754,8 +756,7 @@ footer {
     font-weight: 500;
     padding: 30px; }
   .contactame .boton input {
-    width: 70px;
-    font-size: 18px; }
+    width: 70px; }
   .contactame .formulario {
     padding: 25px; }
     .contactame .formulario label {
@@ -766,6 +767,10 @@ footer {
     .contactame .formulario textarea {
       width: 250px;
       height: 80px; } }
+
+@media screen and (max-width: 460px) {
+  .contactame .boton input {
+    font-size: 14px; } }
 
 @media screen and (max-width: 370px) {
   .contactame-y-trabajemos {
