@@ -12,6 +12,33 @@ main {
     padding-top: 130px;
 }
 
+//! VARIABLES 
+
+$color-principal:#000000 ;
+$color-secundario:#F6F0F0 ;
+$color-terciario:#EBD3FF ;
+$color-de-acento:#ac46ff ;
+
+//! EXTENDS
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//! MIXINS
+
+@mixin enunciados ($size, $peso, $padding, $bg-color, $center, $color){
+            font-size: $size;
+            font-weight: $peso;
+            padding: $padding;
+            background-color: $bg-color;
+            text-align: $center;
+            color: $color;
+}
+
+
 /* NAV */
 
 .navbar-brand {
@@ -19,6 +46,7 @@ main {
     font-size: 40px;
     font-weight: 900;
     color: white;
+    transition: all 1s ease-in;
     &:hover {
         color: #EBD3FF;
     }
@@ -38,6 +66,7 @@ main {
 .navbar-nav li a {
     color: white;
     margin: 30px;
+    transition: all 1s ease-in;
 }
 
 .navbar-nav li a:hover {

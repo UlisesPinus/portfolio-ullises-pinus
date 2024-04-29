@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    background-color: black;
+    background-color: $color-principal;
     padding-bottom: 30px;
 
     div h2 {
@@ -18,8 +18,7 @@
     }
 
     .imagen-parrafo {
-        display: flex;
-        justify-content: center;
+        @extend %flex-center;
 
         img {
             width: 500px;
@@ -46,7 +45,7 @@
 
 .mis-dibujos {
     padding: 80px;
-    background-color: black;
+    background-color: $color-principal;
     margin-top: 150px;
     display: flex;
     justify-content: center;
@@ -74,10 +73,12 @@
             margin-left: 20px;
             box-shadow: white 2px 2px 2px 2px;
             border-radius: 50px;
+            transition: all 0.5s;
 
             &:hover {
-                box-shadow: #EBD3FF 10px 10px 10px 10px;
+                box-shadow: $color-terciario 10px 10px 10px 10px;
                 border-radius: 50px;
+                transform: scale(1.1);
             }
         }
     }
@@ -86,7 +87,7 @@
 /* HOME: Proyectos */
 
 .proyectos {
-    background-color: black;
+    background-color: $color-principal;
     margin-top: 150px;
     display: flex;
     justify-content: center;
@@ -99,10 +100,12 @@
         margin-right: 20px;
         box-shadow: white 2px 2px 2px 2px;
         border-radius: 50px;
+        transition: 0.5s;
 
         &:hover {
-            box-shadow: #EBD3FF -15px 5px 10px 10px;
+            box-shadow: $color-terciario -15px 5px 10px 10px;
             border-radius: 50px;
+            transform: scale(1.1);
         }
     }
 
@@ -124,15 +127,10 @@
 /* PROYECTOS */
 
 .mis-proyectos div {
-    background-color: black;
+    background-color: $color-principal;
 
     h2 {
-        text-align: center;
-        padding: 40px;
-        font-size: 40px;
-        font-weight: 500px;
-        color: black;
-        background-color: #F6F0F0;
+        @include enunciados (40px, 600px, 40px, $color-secundario, center, $color-principal)
     }
 }
 
@@ -142,14 +140,16 @@
 
     a {
         margin: 60px;
-        background-color: #F6F0F0;
+        background-color: $color-secundario;
         border-radius: 40px;
+        transition: 0.5s;
 
         &:hover {
-            background-color: #EBD3FF;
+            background-color: $color-terciario;
             width: 500px;
             border: 5px solid;
-            border-color: #F6F0F0;
+            border-color: $color-secundario;
+            transform: scale(1.1);
         }
     }
 }
@@ -157,18 +157,14 @@
 /* SOBRE MI */
 
 .sobre-mi h2 {
-    font-size: 40px;
-    font-weight: 600px;
-    padding: 40px;
-    background-color: #F6F0F0;
-    text-align: center;
+    @include enunciados (40px, 600px, 40px, $color-secundario, center, $color-principal)
 }
 
 .mis-datos {
     display: flex;
     justify-content: space-evenly;
     padding: 60px;
-    background-color: black;
+    background-color: $color-principal;
 
     img {
         height: 600px;
@@ -179,7 +175,7 @@
     }
 
     .fondo-blanco {
-        background: #F6F0F0;
+        background: $color-secundario;
         border-radius: 20px;
         padding: 40px;
         width: 40%;
@@ -189,20 +185,20 @@
         p {
             font-size: 30px;
             font-weight: 500;
-            color: black;
+            color: $color-principal;
             padding-bottom: 20px;
         }
 
         h3 {
             font-size: 30px;
-            color: black;
+            color: $color-principal;
             text-decoration: underline;
             font-weight: 300;
             padding-bottom: 20px;
         }
 
         div h4 {
-            color: black;
+            color: $color-principal;
             font-size: 28px;
             font-weight: 100;
             line-height: 1.5;
@@ -213,21 +209,17 @@
 /* CONTACTAME */
 
 .contactame-y-trabajemos {
-    font-size: 40px;
-    font-weight: 500px;
-    padding: 40px;
-    background-color: #F6F0F0;
-    text-align: center;
+    @include enunciados (40px, 600px, 40px, $color-secundario, center, $color-principal)
 }
 
 .contactame {
     padding: 30px;
-    background-color: black;
+    background-color: $color-principal;
     display: flex;
     justify-content: center;
 
     .formulario {
-        background-color: #F6F0F0;
+        background-color: $color-secundario;
         display: inline-block;
         padding: 50px;
         border-radius: 20px;
@@ -242,8 +234,8 @@
             border-radius: 20px;
             width: 600px;
             height: 200px;
-            border-color: #EBD3FF;
-            background-color: #EBD3FF;
+            border-color: $color-terciario;
+            background-color: $color-terciario;
             font-size: 22px;
             font-weight: 200;
             padding: 10px;
@@ -253,8 +245,8 @@
             border-radius: 20px;
             width: 600px;
             height: 40px;
-            border-color: #EBD3FF;
-            background-color: #EBD3FF;
+            border-color: $color-terciario;
+            background-color: $color-terciario;
             font-size: 22px;
             font-weight: 200;
             padding: 10px;
@@ -268,17 +260,18 @@
         input {
             border-radius: 20px;
             padding: 10px;
-            background-color: #F6F0F0;
-            border-color: #F6F0F0;
+            background-color: $color-secundario;
+            border-color: $color-secundario;
             font-size: 20px;
-            color: black;
+            color: $color-principal;
             width: 150px;
             margin: 10px;
+            transition: all 1s;
 
             &:hover {
-                background-color: #ac46ff;
-                border-color: #ac46ff;
-                color: black;
+                background-color: $color-de-acento;
+                border-color: $color-de-acento;
+                color: $color-principal;
                 font-weight: 700;
             }
         }
@@ -289,18 +282,13 @@
 /* MI ARTE */
 
 .estas-son h2 {
-    text-align: center;
-    padding: 40px;
-    font-size: 40px;
-    font-weight: 500px;
-    color: black;
-    background-color: #F6F0F0;
+    @include enunciados (40px, 600px, 40px, $color-secundario, center, $color-principal)
 }
 
 .mis-obras-grid {
     width: 100%;
     height: auto;
-    background-color:#C2D7E0;
+    background-color: #C2D7E0;
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
@@ -313,6 +301,11 @@
         height: 400px;
         margin-top: 50px;
         border-radius: 25px;
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
     h4 {

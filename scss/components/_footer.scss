@@ -1,9 +1,8 @@
 /*FOOTER */
 footer {
-    background-color: #F6F0F0;
+    background-color: $color-secundario;
     padding: 35px;
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
 
     ul li {
         list-style: none;
@@ -11,13 +10,14 @@ footer {
 
     ul li a {
         text-decoration: underline;
-        color: black;
+        color: $color-principal;
         font-size: 24px;
         font-weight: 600;
+        transition: all 0.5s linear;
 
         &:hover {
-            font-size: 28px;
-            color: black;
+            font-size: 25px;
+            color: $color-principal;
         }
     }
 
@@ -26,9 +26,9 @@ footer {
         height: 70px;
         padding: 10px;
         margin: 0px 0px 10px 25px;
+        transition: 0.5s;
         &:hover {
-            width: 90px;
-            height: 90px;
+            transform: scale(1.5);
         }
     }
 }
