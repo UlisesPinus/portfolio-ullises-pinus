@@ -21,9 +21,10 @@ main {
   font-size: 40px;
   font-weight: 900;
   color: white;
-  transition: all 0.5s ease-in; }
+  transition: all 0.8s ease-in; }
   .navbar-brand:hover {
-    color: #EBD3FF; }
+    color: #EBD3FF;
+    font-weight: 1200; }
 
 .container-fluid {
   font-family: serif;
@@ -36,11 +37,11 @@ main {
 .navbar-nav li a {
   color: white;
   margin: 30px;
-  transition: all 0.5s ease-in; }
-
-.navbar-nav li a:hover {
-  color: #EBD3FF;
-  text-decoration: underline; }
+  transition: all 0.8s; }
+  .navbar-nav li a:hover {
+    color: #EBD3FF;
+    text-decoration: underline #EBD3FF;
+    transform: scale(1.1); }
 
 .navbar-toggler {
   background-color: white; }
@@ -196,7 +197,12 @@ header {
     padding: 40px;
     width: 40%;
     height: 70%;
-    margin-top: 50px; }
+    margin-top: 20px; }
+    .mis-datos .fondo-blanco a {
+      font-size: 30px;
+      color: #000000;
+      font-weight: 800;
+      text-decoration: none; }
     .mis-datos .fondo-blanco p {
       font-size: 30px;
       font-weight: 500;
@@ -681,6 +687,8 @@ footer {
         color: white; }
       .mis-datos .fondo-blanco h3 {
         color: white; }
+      .mis-datos .fondo-blanco a {
+        color: white; }
       .mis-datos .fondo-blanco div h4 {
         color: white; } }
 
@@ -694,6 +702,8 @@ footer {
       font-size: 24px; }
     .mis-datos .fondo-blanco h3 {
       font-size: 24px; }
+    .mis-datos .fondo-blanco a {
+      font-size: 24px; }
     .mis-datos .fondo-blanco div h4 {
       font-size: 22px; } }
 
@@ -703,6 +713,8 @@ footer {
   .mis-datos .fondo-blanco p {
     font-size: 22px; }
   .mis-datos .fondo-blanco h3 {
+    font-size: 22px; }
+  .mis-datos .fondo-blanco a {
     font-size: 22px; }
   .mis-datos .fondo-blanco div h4 {
     font-size: 20px; } }
@@ -717,6 +729,8 @@ footer {
       font-size: 20px; }
     .mis-datos .fondo-blanco h3 {
       font-size: 20px; }
+    .mis-datos .fondo-blanco a {
+      font-size: 20px; }
     .mis-datos .fondo-blanco div h4 {
       font-size: 18px; } }
 
@@ -726,6 +740,8 @@ footer {
   .mis-datos .fondo-blanco p {
     text-align: center; }
   .mis-datos .fondo-blanco h3 {
+    text-align: center; }
+  .mis-datos .fondo-blanco a {
     text-align: center; }
   .mis-datos .fondo-blanco div h4 {
     text-align: center; } }

@@ -14,14 +14,14 @@ main {
 
 //! VARIABLES 
 
-$color-principal:#000000 ;
-$color-secundario:#F6F0F0 ;
-$color-terciario:#EBD3FF ;
-$color-de-acento:#ac46ff ;
+$color-principal: #000000;
+$color-secundario: #F6F0F0;
+$color-terciario: #EBD3FF;
+$color-de-acento: #ac46ff;
 
 //! EXTENDS
 
-%flex-center{
+%flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,13 +29,13 @@ $color-de-acento:#ac46ff ;
 
 //! MIXINS
 
-@mixin enunciados ($size, $peso, $padding, $bg-color, $center, $color){
-            font-size: $size;
-            font-weight: $peso;
-            padding: $padding;
-            background-color: $bg-color;
-            text-align: $center;
-            color: $color;
+@mixin enunciados ($size, $peso, $padding, $bg-color, $center, $color) {
+    font-size: $size;
+    font-weight: $peso;
+    padding: $padding;
+    background-color: $bg-color;
+    text-align: $center;
+    color: $color;
 }
 
 
@@ -46,11 +46,13 @@ $color-de-acento:#ac46ff ;
     font-size: 40px;
     font-weight: 900;
     color: white;
-    transition: all 0.5s ease-in;
+    transition: all 0.8s ease-in;
+
     &:hover {
         color: #EBD3FF;
+        font-weight: 1200;
     }
-    
+
 }
 
 .container-fluid {
@@ -66,13 +68,15 @@ $color-de-acento:#ac46ff ;
 .navbar-nav li a {
     color: white;
     margin: 30px;
-    transition: all 0.5s ease-in;
+    transition: all 0.8s ;
+
+    &:hover {
+        color: $color-terciario;
+        text-decoration:underline $color-terciario;
+        transform: scale(1.1);
+    }
 }
 
-.navbar-nav li a:hover {
-    color: #EBD3FF;
-    text-decoration: underline;
-}
 
 .navbar-toggler {
     background-color: white;
