@@ -1,4 +1,4 @@
-<h1 align="center">Hola agus este es mi proyecto cargado en github :)</h1>
+<h1 align="center">UX UI DESIGNER</h1>
 <h3 align="center">A passionate UX-UI Designer and Web developer from Argentina</h3>
 
  🔭 I’m currently working on **Proyecto coderhouse- Comision-53845**
